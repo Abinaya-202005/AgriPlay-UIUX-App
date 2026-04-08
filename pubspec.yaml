@@ -1,0 +1,69 @@
+name: agriplay
+description: A new Flutter project to gamify agricultural learning.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.1
+  google_fonts: ^6.2.1
+
+  audioplayers: ^5.2.1
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/welcome_bg.webp
+    - assets/images/login_bg.webp
+    - assets/images/crops_bg.jpg
+    - assets/images/veggies/Onion.jpg
+    - assets/images/veggies/Tomato.jpg
+    - assets/images/veggies/Pumpkin.jpg
+    - assets/images/veggies/Carrot.png
+    - assets/images/veggies/Brinjal.webp
+    - assets/images/fruits/Banana.jpg
+    - assets/images/fruits/Cocoa.webp
+    - assets/images/fruits/Dragon.webp
+    - assets/images/fruits/Lemon.jpg
+    - assets/images/fruits/Strawberry.jpg
+    - assets/images/crops/Cotton.jpg
+    - assets/images/crops/Maize.jpg
+    - assets/images/crops/Paddy.webp
+    - assets/images/crops/Sugarcane.png
+    - assets/images/crops/Wheat.jpeg
+    - assets/videos/brinjal_planting.mp4
+    - assets/videos/brinjal_watering.mp4
+    - assets/videos/brinjal_germinating.mp4
+    - assets/videos/brinjal_maturation.mp4
+    - assets/videos/brinjal_irrigation.mp4
+    - assets/videos/brinjal_harvesting.mp4
+    - assets/videos/strawberry_planting.mp4
+    - assets/videos/strawberry_watering.mp4
+    - assets/videos/strawberry_germinating.mp4
+    - assets/videos/strawberry_maturation.mp4
+    - assets/videos/strawberry_irrigation.mp4
+    - assets/videos/strawberry_harvesting.mp4
+    - assets/videos/maize_planting.mp4
+    - assets/videos/maize_watering.mp4
+    - assets/videos/maize_germinating.mp4
+    - assets/videos/maize_maturation.mp4
+    - assets/videos/maize_irrigation.mp4
+    - assets/videos/maize_harvesting.mp4
+    - assets/images/reward_bg.jpg
